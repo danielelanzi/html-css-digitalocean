@@ -147,16 +147,16 @@ body{
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
   .text_jumbotron h1{
     font-size: 32px;
   }
   .text_jumbotron h3{
     font-size: 19px;
   }
-
 }
-@media screen and (max-width: 991px) {
+
+@media screen and (max-width: 992px) {
   {
     font-size: 40px;
   }
@@ -190,7 +190,7 @@ body{
   font-size: 16px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .img_logo {
     width: 200px;
   }
