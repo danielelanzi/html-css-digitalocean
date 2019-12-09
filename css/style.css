@@ -19,8 +19,8 @@ body{
 }
 
 .header_top img{
-  width: 70%;
-  vertical-align:
+  width: 170px;
+  vertical-align: middle;
 }
 
 .header_top a{
@@ -50,6 +50,16 @@ body{
   font-size: 12px;
 }
 
+.glyphicon-menu-hamburger{
+  color: #3a8aff;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.glyphicon-menu-hamburger:hover{
+  color: #0069FF;
+}
+
 /* CONTENUTO HEADER */
 .header_jumbotron{
   background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
@@ -58,13 +68,13 @@ body{
   background-position: center;
   background-color: blue;
   width: auto;
-  height: 500px;
   color: white;
 }
 
 .text_jumbotron{
   text-align: left;
-  margin-top: 90px;
+  margin-top: 115px;
+  margin-bottom: 115px;
 }
 
 .text_jumbotron h1{
@@ -83,13 +93,12 @@ body{
 }
 
 .form_container{
-  margin-top: 65px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   background-color: white;
-  width: 450px;
-  height: 370px;
   text-align: center;
   border-radius: 5px;
-  padding: 15px;
+  padding: 32px;
 }
 
 .form_container h2{
@@ -138,9 +147,53 @@ body{
   text-decoration: underline;
 }
 
+@media screen and (max-width: 1199px) {
+  .text_jumbotron h1{
+    font-size: 32px;
+  }
+  .text_jumbotron h3{
+    font-size: 19px;
+  }
+
+}
+@media screen and (max-width: 991px) {
+  {
+    font-size: 40px;
+  }
+}
+
 /* ROW MAIN TOP */
 .row_top_main{
   background-color: lightgray;
   width: auto;
   height: 250px;
+}
+
+/* @media screen and (max-width: 768px){
+  .display_none{
+    display: none;
+  }
+
+  .burger_menu span{
+    color: #0069FF;
+    text-align: right;
+
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .burger_menu span{
+    color: #0069FF;
+    text-align: right;
+  }
+  .display_none{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .burger_menu span{
+    display: none;
+  } */
+
 }
