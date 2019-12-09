@@ -1,21 +1,141 @@
 body{
   font-family: Roboto,sans-serif;
+  padding-top: 70px;
 }
 
 /* HEADER */
 .header_top{
+  position: fixed;
+  top: 0;
   background-color: #FFFFFF;
+  width: 100%;
   height: 70px;
-  border: 1px solid black;
+  border: 1px solid #F6F7F9;
   color: black;
+  line-height: 70px;
+  z-index: 2;
+  font-size: 16px;
+  text-align: center;
+}
+
+.header_top img{
+  width: 70%;
+  vertical-align:
+}
+
+.header_top a{
+  color: #031b4e;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header_top a:hover{
+  color: #0069FF;
+}
+
+.list-inline .btn-default{
+  background-color: inherit;
+  border: 1px solid #0069FF;
+  color: #0069FF!important;
+  border-radius: 5px;
+}
+
+.list-inline .btn-default:hover{
+  background-color: #0069FF;
+  border: 1px solid #0069FF;
+  color: white!important;
+}
+
+.glyphicon-menu-down{
+  font-size: 12px;
 }
 
 /* CONTENUTO HEADER */
 .header_jumbotron{
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: blue;
   width: auto;
   height: 500px;
   color: white;
+}
+
+.text_jumbotron{
+  text-align: left;
+  margin-top: 90px;
+}
+
+.text_jumbotron h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.text_jumbotron h3{
+  font-size: 20px;
+  opacity: 0.8;
+  line-height: 30px;
+}
+
+.btn_margin{
+  margin: 5px;
+}
+
+.form_container{
+  margin-top: 65px;
+  background-color: white;
+  width: 450px;
+  height: 370px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.form_container h2{
+  margin-top: 5px;
+  color: #031B4E;
+  text-align: center;
+}
+
+.text_blue{
+  color: #0069FF!important;
+}
+
+.btn_account{
+  width: 100%;
+  background-color: #0069FF;
+  color: white;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+
+.btn_account:hover{
+  background-color: #0069FF;
+  color: white;
+  opacity: inherit;
+}
+
+.btn_google{
+  width: 100%;
+  color: #031b4e;
+  font-weight: bold;
+  opacity: 0.7;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.2);
+}
+
+.btn_google img{
+  float: left;
+  width: 5%;
+}
+
+.text_black{
+  color: #031b4e;
+}
+
+.text_black a{
+  text-decoration: underline;
 }
 
 /* ROW MAIN TOP */
