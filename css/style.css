@@ -329,7 +329,7 @@ color: #0069FF;
 
 /* FEATURES INTERPRISE */
 .features_enterprise{
-  padding-top: 120px;
+  padding: 60px;
 }
 
 .features_enterprise h2{
@@ -386,9 +386,54 @@ color: #0069FF;
 
 .speed_test hr{
   margin: 3px 0 15px 0;
+  background-color: white;
 }
 
 .speed_test p,
 .speed_test a{
   padding: 0 15px;
+}
+
+/* SLIDE 2 */
+.bis h2{
+  margin-bottom: 65px;
+}
+
+.bis .col-sm-10{
+  background-color: #fff;
+  border: 1px solid #e5e8ed;
+  border-radius: 5px;
+  padding: 120px 0;
+}
+
+.bis img{
+  width: 30%;
+  margin-bottom: 32px;
+}
+
+.bis p{
+  font-size: 36px;
+  color: #818DA7;
+}
+
+.bis h4{
+  font-weight: bold;
+}
+
+.bis h5{
+  font-size: 24px;
+  margin-bottom: 50px;
+  color: #818DA7;
+}
+
+.bis a{
+  font-size: 24px;
+}
+
+.bis a:hover{
+  text-decoration: none;
+}
+
+.bis ol{
+  padding-inline-start: 0;
 }
