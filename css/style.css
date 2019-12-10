@@ -88,10 +88,6 @@ body{
   line-height: 30px;
 }
 
-.btn_margin{
-  margin: 5px;
-}
-
 .form_container{
   margin-top: 100px;
   margin-bottom: 100px;
@@ -116,7 +112,9 @@ body{
   background-color: #0069FF;
   color: white;
   opacity: 0.7;
+  border: 1px solid #0069FF;
   border-radius: 5px;
+  margin: 11px 0;
 }
 
 .btn_account:hover{
@@ -130,8 +128,10 @@ body{
   color: #031b4e;
   font-weight: bold;
   opacity: 0.7;
+  border: 1px solid white;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+  margin-bottom: 13px;
 }
 
 .btn_google img{
@@ -147,6 +147,7 @@ body{
   text-decoration: underline;
 }
 
+/* MEDIA QUERY  CONTENUTO HEADER */
 @media screen and (max-width: 1200px) {
   .text_jumbotron h1{
     font-size: 32px;
@@ -190,7 +191,7 @@ body{
   font-size: 16px;
 }
 
-/* <!-- INFORMATION DIGITALOCEAN --> */
+/* INFORMATION DIGITALOCEAN */
 .information_digitalocean{
   padding: 120px 0;
 }
@@ -307,6 +308,7 @@ color: #0069FF;
   opacity: 1;
 }
 
+/* MEDIA QUERY SLIDE 1 */
 @media screen and (max-width: 1200px) {
   .glyphicon-chevron-left,
   .glyphicon-chevron-right{
@@ -320,6 +322,33 @@ color: #0069FF;
     padding-top: calc(386.14px / 2);
   }
   .slide1 ol{
+    padding-inline-start: 0;
     margin-top: 65px;
   }
+}
+
+/* FEATURES INTERPRISE */
+.features_enterprise{
+  padding-top: 120px;
+}
+
+.features_enterprise h2{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 65px;
+}
+
+.features_enterprise a{
+  font-size: 16px;
+}
+
+.features_enterprise h4{
+  font-size: 18px;
+  color: #031b4e;
+  font-weight: bold;
+}
+
+.features_enterprise p{
+  font-size: 16px;
+  color: #818DA7;
 }
