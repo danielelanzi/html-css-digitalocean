@@ -352,3 +352,43 @@ color: #0069FF;
   font-size: 16px;
   color: #818DA7;
 }
+
+/* SPEED TEST */
+.speed_test{
+  background: linear-gradient(rgba(0,72,198,1), rgba(36,81,232,1));
+  padding: 120px 0;
+}
+
+.speed_test h2{
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.s_font{
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 32px 0 0 32px;
+}
+
+.text_white{
+  color: white;
+}
+
+.speed_test a{
+  color: #00d7d2;
+}
+
+.speed_test a:hover{
+  color: #0069FF;
+  text-decoration: none;
+}
+
+.speed_test hr{
+  margin: 3px 0 15px 0;
+}
+
+.speed_test p,
+.speed_test a{
+  padding: 0 15px;
+}
